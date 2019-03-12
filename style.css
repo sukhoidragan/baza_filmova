@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+body {
+    text-align: center;
+    margin: 0;
+}
+header, footer {
+    background-color: black;
+    color: white;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    grid-area: f;
+}
+header {
+    grid-area: h;
+}
+main {
+    grid-area: m;
+}
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 150px auto 50px;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "f f f f f f f f f f f f"
+}
+  .lista {
+    background-color: rgb(128, 133, 136);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  input {
+   background-color:aliceblue
+  } 
+  main {
+    grid-area: m;
+    padding: 10px;
+    background-image: url("slike/movie-theater.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;  
+  }
+  h1{
+    color: rgb(158, 146, 115);
+    text-align: center;
+    padding: 10px;
+  }
+  button {
+    border-radius: 5px;
+    border: solid 1px rgb(104, 24, 168);
+    padding: 5px;
+    font-size: 14px;
+  }
+  button:hover {
+    border-radius: 20px;
+    border: solid 1px black;
+    padding: 5px;
+    color: rgb(124, 58, 179);
+    background-color: rgb(218, 218, 152)
+  }
+  header h2 {
+   text-align: center;
+   padding: 10px;
+   color: rgb(158, 146, 115);
+  }
+  #filmska_baza {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  h3{
+    width: 100px;
+    color: white;
+  }
+  p {
+    color: rgb(219, 204, 204); 
+  }
+  h2 {
+    padding: 10px;
+  }
+  label, input {
+    display: block;
+    text-align: center;
+  }
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 300px;
+  }
+  .unesi_film {
+  display: flex; 
+  }
+  .unos {
+   margin-left: 250px;
+   margin-right: 350px;
+  }
+  .slika{
+    padding: 30px;
+  }
