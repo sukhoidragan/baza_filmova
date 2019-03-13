@@ -19,9 +19,6 @@ footer {
 header {
     grid-area: h;
 }
-main {
-    grid-area: m;
-}
 .container {
     display: grid;
     min-height: 100vh;
@@ -76,6 +73,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
   h3{
     width: 100px;
@@ -83,13 +81,17 @@ main {
   }
   p {
     color: rgb(219, 204, 204); 
+    margin: 10px;
   }
   h2 {
     padding: 10px;
+    color: #f5f5f5;
+    /* margin: 10px; */
   }
   label, input {
     display: block;
     text-align: center;
+    color: white;
   }
   input {
     padding: 10px;
@@ -99,11 +101,18 @@ main {
   }
   .unesi_film {
   display: flex; 
+  justify-content: space-evenly;
   }
   .unos {
-   margin-left: 250px;
-   margin-right: 350px;
+   /* margin-left: 150px;
+   margin-right: 100px; */
   }
   .slika{
     padding: 30px;
+  }
+  .slika img {
+    opacity: 0.2;
+  }
+  #pronadji {
+    margin: 10px auto 20px;
   }
