@@ -37,7 +37,7 @@ header {
     list-style: none;
   }
   input {
-   background-color:aliceblue
+   background-color:orange;
   } 
   main {
     grid-area: m;
@@ -47,7 +47,7 @@ header {
     background-attachment: fixed;  
   }
   h1{
-    color: rgb(158, 146, 115);
+    color: white;
     text-align: center;
     padding: 10px;
   }
@@ -76,7 +76,7 @@ header {
     margin-top: 20px;
   }
   h3{
-    width: 100px;
+    width: 300px;
     color: white;
   }
   p {
@@ -85,7 +85,7 @@ header {
   }
   h2 {
     padding: 10px;
-    color: #f5f5f5;
+    color: white;
     /* margin: 10px; */
   }
   label, input {
@@ -98,6 +98,7 @@ header {
     margin-bottom: 20px;
     border: 1px solid black;
     width: 300px;
+    background-color: rgb(92, 71, 33);
   }
   .unesi_film {
   display: flex; 
